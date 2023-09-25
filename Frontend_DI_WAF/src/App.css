@@ -1,0 +1,7 @@
+.main {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 1.2fr 15fr;
+  user-select: none;
+}
+

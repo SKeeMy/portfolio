@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: inherit;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 10px;
+  height: 20px;
+
+}
+
+
+.inner_wrapper h1 {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-left: 40px;
+  color: white;
+  text-shadow: 2px 2px 4px #F10D58, 20px 43px 40px #4578D5;
+  font-size: 40px;
+}
+
+.inner_wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-right: 30px;
+}
+
+.innerBackground {
+  border-radius: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  flex: 1;
+  background: linear-gradient(135deg, rgb(29, 29, 29), rgb(31, 31, 31));
+  backdrop-filter: blur(10px);
+  padding: 20px 75px;
+  border-radius: 20px;
+  border: 3px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.541);
+  color: white;
+}
+
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type='number'],
+input[type="number"]:hover,
+input[type="number"]:focus {
+  appearance: none;
+  -moz-appearance: textfield;
+}
+
+input[type="date"]:focus::before {
+  content: none
+}
+
+.non-empty-date input[type="date"]:disabled::before {
+  content: none;
+}
+
+.empty-date input[type="date"]:disabled::before {
+  content: attr(data-placeholder);
+  width: 100%;
+}

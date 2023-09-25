@@ -1,0 +1,24 @@
+[
+    {
+        "href": "/monitoring",
+        "text": "Monitoring"
+    },
+    {
+        "text": "Configuration",
+        "icon": "faCaretRight",
+        "children": [
+            {
+                "href": "/config/rproxy/hosts",
+                "text": "Reverse proxy"
+            },
+            {
+                "href": "/config/waf/rulesets",
+                "text": "WAF"
+            }
+        ]
+    },
+    {
+        "href": "/settings",
+        "text": "Settings"
+    }
+]

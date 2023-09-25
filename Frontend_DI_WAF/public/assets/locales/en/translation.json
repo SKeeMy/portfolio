@@ -1,0 +1,102 @@
+{
+    "Monitoring": "Monitoring",
+    "Settings": "Settings",
+    "Configuration": "Configuration",
+    "Reverse proxy": "Reverse proxy",
+    "WAF": "WAF",
+    "Name": "Name",
+    "Copied": "Copied",
+    "Authentication": "Authentication",
+    "Login": "Login",
+    "Password": "Password",
+    "Submit": "Submit",
+    "Invalid credentials": "Invalid credentials",
+    "Are you sure?": "Are you sure?",
+    "Yes": "Yes",
+    "No": "No",
+
+    "Events": "Events",
+
+    "Events by hours": "Events by hours",
+    "Time": "Time",
+
+    "Events by country": "Events by country",
+    "Unknown": "Unknown",
+
+    "Events by name": "Events by name",
+
+    "Blacklisted/not whitelisted country": "Blacklisted/not whitelisted country",
+    "Blacklisted IP": "Blacklisted IP",
+    "Disallowed HTTP method": "Disallowed HTTP method",
+    "Read-only request contains body": "Read-only request contains body",
+
+    "Not whitelisted path": "Not whitelisted path",
+    "Blacklisted path": "Blacklisted path",
+    "URL parameters overflow": "URL parameters overflow",
+    "Cookies overflow": "Cookies overflow",
+    "Headers overflow": "Headers overflow",
+
+    "Body size overflow": "Body size overflow",
+    "Malformed content type": "Malformed content type",
+    "Body parameters overflow": "Body parameters overflow",
+    "Disallowed file extension": "Disallowed file extension",
+    "Disallowed file magic bytes": "Disallowed file magic bytes",
+    "Malformed content disposition": "Malformed content disposition",
+    "Malformed filename": "Malformed filename",
+    "JSON depth overflow": "JSON depth overflow",
+    
+    "User rule violation (URL parameter)": "User rule violation (URL parameter)",
+    "User rule violation (cookie)": "User rule violation (cookie)",
+    "User rule violation (header)": "User rule violation (header)",
+    "User rule violation (body parameter)": "User rule violation (body parameter)",
+
+    "Events severity": "Events severity",
+    "Severity": "Severity",
+    "Low": "Low",
+    "Medium": "Medium",
+    "High": "High",
+
+    "No events yet": "No events yet",
+    "Save": "Save",
+
+    "UpstreamHost": "Upstream host",
+    "UpstreamAddress": "Upstream address",
+    "UpstreamScheme": "Upstream scheme",
+    "RulesetID": "Ruleset ID",
+    "WhitelistedIPs": "Whitelisted IPs",
+    "BlacklistedIPs": "Blacklisted IPs",
+    "GeoIP": "Geo IP",
+    "Enabled": "Enabled",
+    "Countries": "Countries",
+
+    "VigilanceLevel": "Vigilance level",
+    "AnalysersRules": "Analysers rules",
+
+    "Basic": "Basic",
+    "AllowedMethods": "Allowed methods",
+    "ReadOnlyMethodsNoBody": "Read-only requests have no body",
+
+    "URL": "URL",
+    "Path": "Path",
+    "Whitelist": "Whitelist",
+    "Allowed": "Allowed",
+    "Disallowed": "Disallowed",
+
+    "Parameters": "Parameters",
+    "NumberLimit": "Number limit",
+    "DetectorsChecks": "Detectors checks",
+    "UserRules": "User rules",
+
+    "Cookies": "Cookies",
+    "Headers": "Headers",
+
+    "Body": "Body",
+    "SizeLimit": "Size limit",
+    "SingleContentTypeHeader": "Single Content-Type header",
+    "ContentTypesCorrelation": "Content-Types correlation",
+    "AllowedFileExtensions": "Allowed file extensions",
+    "JSONDepth": "JSON depth limit",
+
+    "DetectorsRules": "Detectors rules",
+    "PathTraversal": "Path traversal"
+}

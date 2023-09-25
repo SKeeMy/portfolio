@@ -1,0 +1,44 @@
+input[type="range"]{
+  -webkit-appearance: none;
+  height: 5px;
+  background: grey;
+  border-radius: 5px;
+  background-image: inherit;
+  background-repeat: no-repeat;
+  margin-top: 1em;
+  transition: .3s;
+  width: 130px;
+}
+input[type="range"]::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  width: 20px;
+  height: 7.5px;
+  background: inherit;
+  border-radius: 20%;
+  border: 1.4px solid rgb(255, 255, 255);
+  cursor: pointer;
+  z-index: 10;
+  transition: all .5s;
+  background-image: inherit;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover{
+  box-shadow: 0 0 0 1px rgba(6, 255, 180, 0.486), 0 0 0 2px #ffffff ;
+  transition: all .1s;
+  background: white;
+  border: 1px solid rgb(255, 255, 255);
+  background: inherit;
+}
+.rangeValue{
+  margin-left: 10px;
+  transition: all .3s;
+  background: inherit;
+  text-shadow: 0px 0px 5px rgb(23, 23, 23), 
+               0px 0px 10px rgb(0, 255, 255), 
+			   0px 0px 10px rgb(54, 54, 54),
+			   0px 0px 15px rgb(53, 53, 53),
+			   0px 0px 20px rgb(24, 120, 255),
+			   0px 0px 25px rgb(24, 143, 255),
+			   0px 0px 30px rgb(24, 89, 255),
+			   0px 0px 50px rgb(24, 255, 159);
+}

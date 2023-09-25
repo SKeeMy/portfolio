@@ -1,0 +1,43 @@
+.bg {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, #fd51b0, #02012bec, #001c77ab, #fa00a7b9, #fa00a7b9);
+    position: absolute;
+    overflow: hidden;
+    animation: backgrounds 10s ease-in-out infinite;
+    background-size: 120% 200%;
+}
+
+.content_wrapper {
+    display: flex;
+    height: 100vh;
+    padding-bottom: 200px;
+}
+
+.items {
+    min-width: 294px;
+}
+
+
+
+h2 {
+    text-shadow: none;
+}
+
+
+
+@keyframes backgrounds {
+
+
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}

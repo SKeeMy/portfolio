@@ -1,0 +1,102 @@
+{
+    "Monitoring": "Мониторинг",
+    "Settings": "Настройки",
+    "Configuration": "Конфигурация",
+    "Reverse proxy": "Обратный прокси",
+    "WAF": "Межсетевой экран",
+    "Name": "Название",
+    "Copied": "Скопировано",
+    "Authentication": "Авторизация",
+    "Login": "Логин",
+    "Password": "Пароль",
+    "Submit": "Войти",
+    "Invalid credentials": "Неверные учётные данные",
+    "Are you sure?": "Вы уверены?",
+    "Yes": "Да",
+    "No": "Нет",
+
+    "Events": "События",
+
+    "Events by hours": "События по часам",
+    "Time": "Время",
+
+    "Events by country": "События по странам",
+    "Unknown": "Неизвестно",
+
+    "Events by name": "События по названиям",
+
+    "Blacklisted/not whitelisted country": "Страна не из чёрного/белого списка",
+    "Blacklisted IP": "Запрещённый IP",
+    "Disallowed HTTP method": "Запрещённый HTTP метод",
+    "Read-only request contains body": "Read-only запрос содержит тело",
+
+    "Not whitelisted path": "Путь не из белого списка",
+    "Blacklisted path": "Путь из чёрного списка",
+    "URL parameters overflow": "Превышение лимита URL параметров",
+    "Cookies overflow": "Превышение лимита куки",
+    "Headers overflow": "Превышение лимита заголовков",
+
+    "Body size overflow": "Превышение лимита размера тела",
+    "Malformed content type": "Некорректный заголовок Content-Type",
+    "Body parameters overflow": "Превышение лимита параметров тела",
+    "Disallowed file extension": "Запрещённое расширение файла",
+    "Disallowed file magic bytes": "Запрещённые magic bytes файла",
+    "Malformed content disposition": "Некорректный заголовок Content-Disposition",
+    "Malformed filename": "Некорректное имя файла",
+    "JSON depth overflow": "Превышение лимита глубины JSON",
+    
+    "User rule violation (URL parameter)": "Нарушение пользовательского правила (URL параметры)",
+    "User rule violation (cookie)": "Нарушение пользовательского правила (куки)",
+    "User rule violation (header)": "Нарушение пользовательского правила (заголовки)",
+    "User rule violation (body parameter)": "Нарушение пользовательского правила (параметры тела)",
+
+    "Events severity": "Критичность событий",
+    "Severity": "Критичность",
+    "Low": "Низкая",
+    "Medium": "Средняя",
+    "High": "Высокая",
+
+    "No events yet": "Пока событий нет",
+    "Save": "Сохранить",
+
+    "UpstreamHost": "Хост апстрима",
+    "UpstreamAddress": "Адрес апстрима",
+    "UpstreamScheme": "Протокол апстрима",
+    "RulesetID": "ID набора правил",
+    "WhitelistedIPs": "Белый список IP",
+    "BlacklistedIPs": "Чёрный список IP",
+    "GeoIP": "Гео IP",
+    "Enabled": "Включен",
+    "Countries": "Страны",
+
+    "VigilanceLevel": "Уровень бдительности",
+    "AnalysersRules": "Правила анализаторов",
+
+    "Basic": "Базовые",
+    "AllowedMethods": "Разрешённые методы",
+    "ReadOnlyMethodsNoBody": "Read-only запросы не имеют тела",
+
+    "URL": "URL",
+    "Path": "Путь",
+    "Whitelist": "Белый список",
+    "Allowed": "Разрешённые",
+    "Disallowed": "Запрещённые",
+
+    "Parameters": "Параметры",
+    "NumberLimit": "Лимит на количество",
+    "DetectorsChecks": "Проверки детекторов",
+    "UserRules": "Пользовательские правила",
+
+    "Cookies": "Куки",
+    "Headers": "Заголовки",
+
+    "Body": "Тело",
+    "SizeLimit": "Лимит на размер",
+    "SingleContentTypeHeader": "Разрешён один заголовок Content-Type",
+    "ContentTypesCorrelation": "Корреляция Content-Type заголовков",
+    "AllowedFileExtensions": "Разрешённые расширения файлов",
+    "JSONDepth": "Лимит на вложенность JSON",
+
+    "DetectorsRules": "Правила детекторов",
+    "PathTraversal": "Path traversal"
+}

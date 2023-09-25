@@ -1,0 +1,10 @@
+.appear {
+    animation-duration: 0.5s;
+    animation-name: animation-appear;
+    animation-delay: 0s;
+}
+  
+@keyframes animation-appear {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
